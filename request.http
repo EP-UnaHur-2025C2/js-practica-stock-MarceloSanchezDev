@@ -1,0 +1,15 @@
+POST http://localhost:3000/productos/filtrar HTTP/1.1
+Content-Type: application/json
+
+[
+  {
+    "fn": "stock",
+    "values": 10
+  },
+  {
+    "fn": "categoria",
+    "values": ["electrodomestico", "deportivo"]
+  }
+]
+
+#####
